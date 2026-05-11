@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partify — AI Music Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="logo">
+        <span class="logo-icon">♪</span>
+        <span class="logo-text">Partify</span>
+      </div>
+      <p class="tagline">AI Music Discovery</p>
+      <hr class="divider" />
+      <div class="tips">
+        <p class="tips-title">Try asking:</p>
+        <button class="suggestion" data-msg="Give me chill jazz for late-night studying">🌙 Late-night jazz</button>
+        <button class="suggestion" data-msg="Something like Frank Ocean – emotional and smooth">🌊 Like Frank Ocean</button>
+        <button class="suggestion" data-msg="Build me an energetic gym playlist">💪 Gym playlist</button>
+        <button class="suggestion" data-msg="What are the best indie albums of the last 5 years?">🎸 Best indie albums</button>
+      </div>
+      <div class="sidebar-footer">
+        <span id="status-dot" class="dot offline"></span>
+        <span id="status-text">Connecting…</span>
+      </div>
+    </aside>
+
+    <!-- Main chat area -->
+    <main id="chat-area">
+      <div id="messages">
+        <!-- Welcome message -->
+        <div class="msg assistant welcome">
+          <div class="avatar">♪</div>
+          <div class="bubble">
+            <p>Hi! I'm your AI music guide. Ask me to discover new tracks, deep-dive an artist, or build a Spotify playlist.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typing indicator (hidden by default) -->
+      <div id="typing" class="msg assistant hidden">
+        <div class="avatar">♪</div>
+        <div class="bubble typing-bubble">
+          <span class="dot-flashing"></span>
+        </div>
+      </div>
+
+      <!-- Input bar -->
+      <div id="input-bar">
+        <textarea
+          id="user-input"
+          placeholder="Ask about music, artists, or playlists…"
+          rows="1"
+          disabled
+        ></textarea>
+        <button id="send-btn" disabled>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

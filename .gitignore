@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+backend/chroma_db/
+backend/test_rag.py
+backend/test_spotify.py
+backend/.spotify_cache
+backend/.venv/
+node_modules/
+.DS_Store
