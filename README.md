@@ -2,6 +2,10 @@
 
 An agentic AI music assistant driven by an LLM (Groq / Llama 4) that answers natural language queries to build Spotify playlists, deep-dive artists, and surface personalized listening trends.
 
+<img width="1439" height="745" alt="Screen Shot 2026-05-10 at 10 15 24 PM" src="https://github.com/user-attachments/assets/e8914577-b995-42b7-92e7-51267e9255af" />
+
+<img width="1414" height="805" alt="Screen Shot 2026-05-10 at 10 15 35 PM" src="https://github.com/user-attachments/assets/0b43ae02-dc79-45ed-8aee-c0cb097636cf" />
+
 ## Features
 
 - **Natural language queries** — ask for music by mood, genre, artist, or vibe
