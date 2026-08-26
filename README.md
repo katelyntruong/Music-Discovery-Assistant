@@ -91,7 +91,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## Automation
 
-The scraper runs automatically every Sunday at 2 AM via cron:
+The scraper runs automatically via cron:
 
 ```bash
 # Install
