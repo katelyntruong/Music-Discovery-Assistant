@@ -5,6 +5,7 @@ Usage:
     python scraper.py                # scrape 3 pages (~30 reviews)
     python scraper.py --pages 10     # scrape more
     python scraper.py --status       # show how many docs are indexed
+    python scraper.py --reset        # wipe the collection first, then scrape
 """
 
 import argparse
@@ -15,7 +16,7 @@ import sys
 import httpx
 from bs4 import BeautifulSoup
 
-from rag import ingest_review, collection_count
+from rag import ingest_review, collection_count, reset_collection
 
 BASE_URL = "https://www.rollingstone.com/music/music-album-reviews/"
 HEADERS = {
@@ -81,13 +82,21 @@ def _extract_review_text(article_html: str) -> tuple[str, list[str]]:
     # remove nav / footer noise
     for tag in soup.select("nav, footer, aside, script, style"):
         tag.decompose()
+    # Rolling Stone injects "Trending Stories" / "Editor's picks" / "Related
+    # Content" widgets as <section>s *inside* body paragraphs; left in, the
+    # same headlines get embedded into every review
+    for tag in soup.select("p section"):
+        tag.decompose()
 
     # grab main article body paragraphs
     body_paragraphs = soup.select("article p, .article-content p, .content p")
     if not body_paragraphs:
         body_paragraphs = soup.select("p")
 
-    text = " ".join(p.get_text(strip=True) for p in body_paragraphs[:30])
+    # get_text(strip=True) would strip the spaces around inline <a> tags (artist
+    # and album names) and glue words together ("Hommesings"); keep the original
+    # spacing and just collapse runs of whitespace instead
+    text = " ".join(" ".join(p.get_text().split()) for p in body_paragraphs[:30])
 
     # try to pick up artist names from structured tags or byline hints
     artists: list[str] = []
@@ -158,6 +167,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Rolling Stone review scraper / ingester")
     parser.add_argument("--pages", type=int, default=3, help="Listing pages to scrape (default 3)")
     parser.add_argument("--status", action="store_true", help="Show indexed doc count and exit")
+    parser.add_argument("--reset", action="store_true",
+                        help="Delete every document in the collection before scraping")
     args = parser.parse_args()
 
     if args.status:
@@ -165,10 +176,14 @@ def main() -> None:
         print(f"ChromaDB collection contains {count} document(s).")
         sys.exit(0)
 
+    if args.reset:
+        reset_collection()
+        print("Collection reset.")
+
     print(f"Scraping {args.pages} page(s) from Rolling Stone…")
     total = scrape_and_ingest(pages=args.pages)
     final_count = collection_count()
-    print(f"\nDone. Ingested {total} new/updated reviews. Total in DB: {final_count}")
+    print(f"\nDone. Ingested {total} new/updated reviews. Total chunks in DB: {final_count}")
 
 
 if __name__ == "__main__":

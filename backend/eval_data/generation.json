@@ -1,0 +1,104 @@
+[
+  {
+    "query": "What did critics say about Radiohead's In Rainbows?",
+    "context": [
+      {"source": "rag_search", "content": "In Rainbows was praised by critics for its warm electronic textures layered with live instrumentation. Rolling Stone called it 'a hushed, meditative triumph' and highlighted the intimacy of Thom Yorke's vocals."}
+    ],
+    "reference_answer": "Critics praised In Rainbows for blending warm electronic textures with live instrumentation; Rolling Stone called it a hushed, meditative triumph and noted the intimacy of Yorke's vocals."
+  },
+  {
+    "query": "Tell me about Frank Ocean's Blonde.",
+    "context": [
+      {"source": "rag_search", "content": "Blonde is built around sparse, filtered vocals and shifting time signatures, with themes of memory, queerness, and heartbreak. It largely abandons conventional song structure."}
+    ],
+    "reference_answer": null
+  },
+  {
+    "query": "Find me some upbeat pop songs.",
+    "context": [
+      {"source": "spotify_search", "content": [
+        {"name": "Levitating", "artist": "Dua Lipa", "album": "Future Nostalgia", "release_year": "2020", "popularity": 88},
+        {"name": "Blinding Lights", "artist": "The Weeknd", "album": "After Hours", "release_year": "2020", "popularity": 91}
+      ]}
+    ],
+    "reference_answer": null
+  },
+  {
+    "query": "What's Radiohead's Spotify profile like?",
+    "context": [
+      {"source": "get_artist_info", "content": {"name": "Radiohead", "genres": ["art rock", "alternative rock"], "popularity": 74, "followers": 9500000}}
+    ],
+    "reference_answer": "Radiohead is tagged as art rock and alternative rock on Spotify, with a popularity score of 74 and about 9.5 million followers."
+  },
+  {
+    "query": "Based on my recent listening, recommend something similar.",
+    "context": [
+      {"source": "get_recently_played", "content": [
+        {"name": "Weird Fishes", "artist": "Radiohead"},
+        {"name": "Idioteque", "artist": "Radiohead"}
+      ]},
+      {"source": "spotify_search", "content": [
+        {"name": "Everything In Its Right Place", "artist": "Radiohead"},
+        {"name": "Motion Picture Soundtrack", "artist": "Radiohead"}
+      ]}
+    ],
+    "reference_answer": null
+  },
+  {
+    "query": "What are the best indie albums of the last 5 years?",
+    "context": [
+      {"source": "rag_search", "content": "Recent acclaimed indie releases include Big Thief's 'Dragon New Warm Mountain I Believe In You' and Alvvays' 'Blue Rev,' both praised for expansive, textured songwriting."}
+    ],
+    "reference_answer": "Widely acclaimed recent indie albums include Big Thief's Dragon New Warm Mountain I Believe In You and Alvvays' Blue Rev, both noted for their expansive, textured songwriting."
+  },
+  {
+    "query": "What did Rolling Stone say about Tyler, the Creator's Chromakopia?",
+    "context": [
+      {"source": "rag_search", "content": "No matching articles were found in the knowledge base for this query."}
+    ],
+    "reference_answer": null,
+    "notes": "Hallucination stress test: context has no real info -- a faithful answer admits that rather than inventing a quote."
+  },
+  {
+    "query": "Write a short description for the chill playlist I just made.",
+    "context": [
+      {"source": "create_playlist", "content": {"playlist_id": "p1", "playlist_url": "https://open.spotify.com/playlist/p1", "name": "Chill Vibes", "track_count": 12}}
+    ],
+    "reference_answer": "Your playlist \"Chill Vibes\" with 12 tracks has been created — you can find it at https://open.spotify.com/playlist/p1."
+  },
+  {
+    "query": "What have I been listening to the most this year?",
+    "context": [
+      {"source": "get_top_tracks", "content": [
+        {"name": "Ivy", "artist": "Frank Ocean", "popularity": 81},
+        {"name": "Pyramids", "artist": "Frank Ocean", "popularity": 75}
+      ]}
+    ],
+    "reference_answer": "Your top tracks this year include Frank Ocean's 'Ivy' and 'Pyramids.'"
+  },
+  {
+    "query": "How does Kendrick Lamar's storytelling compare across his albums?",
+    "context": [
+      {"source": "rag_search", "content": "good kid, m.A.A.d city is framed as an autobiographical short film about Compton, while To Pimp a Butterfly widens the lens to systemic racism and self-actualization through a jazz-funk palette."}
+    ],
+    "reference_answer": null,
+    "notes": "Completeness test: a good answer should cover both albums mentioned in the context, not just one."
+  },
+  {
+    "query": "What's a good gym playlist?",
+    "context": [
+      {"source": "spotify_search", "content": [
+        {"name": "Stronger", "artist": "Kanye West"},
+        {"name": "Till I Collapse", "artist": "Eminem"},
+        {"name": "Power", "artist": "Kanye West"}
+      ]}
+    ],
+    "reference_answer": null
+  },
+  {
+    "query": "What's the weather like today?",
+    "context": [],
+    "reference_answer": null,
+    "notes": "Relevance test with no retrieved context at all -- should stay on-topic (music) rather than fabricate an answer."
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "query": "Is Beck's Ride Lonesome any good?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/"
+    ]
+  },
+  {
+    "query": "What did critics say about Metallica's ReLoad box set?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/metallica-reload-super-deluxe-edition-review-1235573244/"
+    ]
+  },
+  {
+    "query": "Killers frontman makes a country record in Nashville",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/brandon-flowers-thrasher-album-review-1235612693/"
+    ]
+  },
+  {
+    "query": "Irish post-punk band's dystopian album about AI and tech billionaires",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/"
+    ]
+  },
+  {
+    "query": "debut from a Slovak pop singer who was cut from the Netflix show that formed Katseye",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/adela-prima-album-review-1235620983/"
+    ]
+  },
+  {
+    "query": "Which record has a duet with Rosalía?",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/"
+    ]
+  },
+  {
+    "query": "album with Paul McCartney on bass and Bruno Mars on cowbell",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "a story-rap about a trans woman named Tiffany",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yg-the-gentlemens-club-review-1235580889/"
+    ]
+  },
+  {
+    "query": "rapper's album that opens with his mother calling him a boss and a legend",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/bigxthaplug-better-over-time-new-album-review-1235649228/"
+    ]
+  },
+  {
+    "query": "Nineties-style indie guitar rock with lots of feedback",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beabadoobee-pylon-album-review-1235626786/"
+    ]
+  },
+  {
+    "query": "rock legends in their eighties still making records",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "folk and roots protest songs about working Americans",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/outlaws-almanac-review-1235579739/"
+    ]
+  },
+  {
+    "query": "Did critics like the new Queens of the Stone Age album Perfecth?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/queens-of-the-stone-age-perfecth-review-1235637835/"
+    ]
+  },
+  {
+    "query": "Alabama Shakes I Must Be Dreaming review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alabama-shakes-i-must-be-dreaming-album-review-1235616760/"
+    ]
+  },
+  {
+    "query": "Fruit Bats The Landfill review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "hard rock frontman's quiet acoustic album after a divorce and cancer surgery",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/queens-of-the-stone-age-perfecth-review-1235637835/"
+    ]
+  },
+  {
+    "query": "reunited Southern rock-soul band's first record in more than a decade",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alabama-shakes-i-must-be-dreaming-album-review-1235616760/"
+    ]
+  },
+  {
+    "query": "Leeds band gets looser and more melodic on their third album",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "album inspired by Midwest garbage dumps that turn into mountains",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "neo-soul singer's first proper album since 2010, made with an underground hip-hop producer",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/erykah-badu-the-alchemist-before-the-world-blows-1235618167/"
+    ]
+  },
+  {
+    "query": "West Coast rapper opens up about being sexually assaulted as a teenager",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yg-the-gentlemens-club-review-1235580889/"
+    ]
+  },
+  {
+    "query": "multi-artist roots concept album released on Juneteenth",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/outlaws-almanac-review-1235579739/"
+    ]
+  },
+  {
+    "query": "album with a cover of Amy Winehouse's You Know I'm No Good",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "closing song built on Harry Nilsson's One",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/bigxthaplug-better-over-time-new-album-review-1235649228/"
+    ]
+  },
+  {
+    "query": "song where the narrator meets Elvis driving a Tesla",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/brandon-flowers-thrasher-album-review-1235612693/"
+    ]
+  },
+  {
+    "query": "song named after a vibrator brand",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/adela-prima-album-review-1235620983/"
+    ]
+  },
+  {
+    "query": "track where Hayley Williams of Paramore sings",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beabadoobee-pylon-album-review-1235626786/"
+    ]
+  },
+  {
+    "query": "banjo version of the Misfits' Last Caress with John Popper",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/metallica-reload-super-deluxe-edition-review-1235573244/"
+    ]
+  },
+  {
+    "query": "produced by Justin Meldal-Johnsen",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "recorded without click tracks at Bear Creek Studios",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "albums compared to Nick Drake",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/",
+      "https://www.rollingstone.com/music/music-album-reviews/erykah-badu-the-alchemist-before-the-world-blows-1235618167/"
+    ]
+  },
+  {
+    "query": "post-punk bands",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/",
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "gloomy, gentle acoustic breakup music",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/"
+    ]
+  }
+]

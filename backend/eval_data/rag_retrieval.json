@@ -1,0 +1,803 @@
+[
+  {
+    "query": "What did Rolling Stone think of Olivia Rodrigo's new album?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/olivia-rodrigo-you-seem-pretty-sad-for-a-girl-love-review-1235576485/"
+    ]
+  },
+  {
+    "query": "Review of the Mastodon album Marrow Deep",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/mastodon-marrow-deep-album-review-1235609863/"
+    ]
+  },
+  {
+    "query": "Is Beck's Ride Lonesome any good?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/"
+    ]
+  },
+  {
+    "query": "Rolling Stone review of Madonna's Confessions II",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/madonna-confessions-ii-album-review-1235588293/"
+    ]
+  },
+  {
+    "query": "How was Lizzo's album Bitch received?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/lizzo-bitch-album-review-1235572260/"
+    ]
+  },
+  {
+    "query": "What did critics say about Metallica's ReLoad box set?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/metallica-reload-super-deluxe-edition-review-1235573244/"
+    ]
+  },
+  {
+    "query": "Charli XCX Music, Fashion, Film review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/charli-xcx-music-fashion-film-review-1235597074/"
+    ]
+  },
+  {
+    "query": "Is Gracie Abrams' Daughter From Hell her best album?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/gracie-abrams-album-review-daughter-from-hell-1235587533/"
+    ]
+  },
+  {
+    "query": "the album by a singer whose doctors told him he can never growl again after surgery",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/godflesh-decay-album-review-1235609865/"
+    ]
+  },
+  {
+    "query": "metal band's grief album after their fired guitarist died in a motorcycle accident",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/mastodon-marrow-deep-album-review-1235609863/"
+    ]
+  },
+  {
+    "query": "Puerto Rican band's political debut about U.S. colonialism after opening for Bad Bunny",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/chuwis-album-libertad-review-bad-bunny-1235643070/"
+    ]
+  },
+  {
+    "query": "Killers frontman makes a country record in Nashville",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/brandon-flowers-thrasher-album-review-1235612693/"
+    ]
+  },
+  {
+    "query": "a posthumous collection of old outtakes from a legendary pop star that critics found flat and thrown together",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/prince-timeless-album-review-1235617984/"
+    ]
+  },
+  {
+    "query": "a country star mixing disco and Seventies dance-floor sounds",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miranda-lambert-crisco-album-review-1235622751/"
+    ]
+  },
+  {
+    "query": "concept album about a sheriff's daughter hunting the men who killed her father",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/shaboozey-new-music-outlaw-cherie-lee-other-western-tales-1235599492/"
+    ]
+  },
+  {
+    "query": "Chilean singer's album about postpartum depression and becoming a mother",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/francisca-valenzuela-maldita-album-review-1235601497/"
+    ]
+  },
+  {
+    "query": "the first solo record from a surviving Beastie Boy",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/mike-d-beastie-boys-thank-you-album-review-1235616806/"
+    ]
+  },
+  {
+    "query": "Irish post-punk band's dystopian album about AI and tech billionaires",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/"
+    ]
+  },
+  {
+    "query": "a soul singer's collaboration album with the British trio Jungle",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/leon-bridges-happiness-anytime-album-review-1235629868/"
+    ]
+  },
+  {
+    "query": "Argentine rapper goes full rock and roll hedonism with St. Vincent and Viagra Boys as guests",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/dillom-la-nueva-violencia-review-1235608396/"
+    ]
+  },
+  {
+    "query": "Colombian superstar's heartbreak album after splitting up with Feid",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/karol-g-no-me-arrepiento-de-sentir-album-review-1235604209/"
+    ]
+  },
+  {
+    "query": "debut from a Slovak pop singer who was cut from the Netflix show that formed Katseye",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/adela-prima-album-review-1235620983/"
+    ]
+  },
+  {
+    "query": "rapper's short EP that critics called slop and a Travis Scott imitation",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yeat-cocoon-new-music-drake-feature-1235630031/"
+    ]
+  },
+  {
+    "query": "R&B singer's love album compared to Olivia Dean's The Art of Loving",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/ravyn-lenae-blue-island-album-review-1235578511/"
+    ]
+  },
+  {
+    "query": "Which album ends with David Cronenberg repeating 'no one lasts forever'?",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/charli-xcx-music-fashion-film-review-1235597074/"
+    ]
+  },
+  {
+    "query": "album where Geezer Butler plays the intro to one of the songs",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/mastodon-marrow-deep-album-review-1235609863/"
+    ]
+  },
+  {
+    "query": "Which record has a duet with Rosalía?",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/"
+    ]
+  },
+  {
+    "query": "album with Paul McCartney on bass and Bruno Mars on cowbell",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "songwriter who won a Grammy for working on Beyoncé's Cowboy Carter",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/ryan-beatty-sweet-fortune-album-review-1235583534/"
+    ]
+  },
+  {
+    "query": "a story-rap about a trans woman named Tiffany",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yg-the-gentlemens-club-review-1235580889/"
+    ]
+  },
+  {
+    "query": "Strokes song that takes a swipe at Anthony Fantano",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/strokes-reality-awaits-review-1235597095/"
+    ]
+  },
+  {
+    "query": "Which album includes a voicemail from the singer's late father?",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/phoebe-bridgers-new-album-review-lost-weekend-1235589661/"
+    ]
+  },
+  {
+    "query": "song about the Danceteria nightclub with Basquiat and Keith Haring",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/madonna-confessions-ii-album-review-1235588293/"
+    ]
+  },
+  {
+    "query": "album where the singer complains about scanning a QR code to make toast",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/weezer-gold-album-review-1235611428/"
+    ]
+  },
+  {
+    "query": "rapper's album that opens with his mother calling him a boss and a legend",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/bigxthaplug-better-over-time-new-album-review-1235649228/"
+    ]
+  },
+  {
+    "query": "albums with a Drake feature",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yeat-cocoon-new-music-drake-feature-1235630031/",
+      "https://www.rollingstone.com/music/music-album-reviews/karol-g-no-me-arrepiento-de-sentir-album-review-1235604209/"
+    ]
+  },
+  {
+    "query": "records Phoebe Bridgers worked on or appears on",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/phoebe-bridgers-new-album-review-lost-weekend-1235589661/",
+      "https://www.rollingstone.com/music/music-album-reviews/godflesh-decay-album-review-1235609865/"
+    ]
+  },
+  {
+    "query": "albums dealing with the death of the artist's father",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alex-warren-wildchild-album-review-1235618769/",
+      "https://www.rollingstone.com/music/music-album-reviews/phoebe-bridgers-new-album-review-lost-weekend-1235589661/",
+      "https://www.rollingstone.com/music/music-album-reviews/steve-lacy-oh-yeah-album-review-1235594783/"
+    ]
+  },
+  {
+    "query": "heavy metal albums full of grief and pain",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/mastodon-marrow-deep-album-review-1235609863/",
+      "https://www.rollingstone.com/music/music-album-reviews/godflesh-decay-album-review-1235609865/"
+    ]
+  },
+  {
+    "query": "joyful disco and dance-floor pop albums",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/madonna-confessions-ii-album-review-1235588293/",
+      "https://www.rollingstone.com/music/music-album-reviews/carly-rae-jepsen-day-and-night-album-review-1235622766/",
+      "https://www.rollingstone.com/music/music-album-reviews/miranda-lambert-crisco-album-review-1235622751/",
+      "https://www.rollingstone.com/music/music-album-reviews/chaka-khan-chakzilla-album-review-1235630380/"
+    ]
+  },
+  {
+    "query": "Nineties-style indie guitar rock with lots of feedback",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beabadoobee-pylon-album-review-1235626786/"
+    ]
+  },
+  {
+    "query": "Spanish-language and Latin American albums",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/chuwis-album-libertad-review-bad-bunny-1235643070/",
+      "https://www.rollingstone.com/music/music-album-reviews/karol-g-no-me-arrepiento-de-sentir-album-review-1235604209/",
+      "https://www.rollingstone.com/music/music-album-reviews/dillom-la-nueva-violencia-review-1235608396/",
+      "https://www.rollingstone.com/music/music-album-reviews/francisca-valenzuela-maldita-album-review-1235601497/"
+    ]
+  },
+  {
+    "query": "rock legends in their eighties still making records",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "folk and roots protest songs about working Americans",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/outlaws-almanac-review-1235579739/"
+    ]
+  },
+  {
+    "query": "Rachel Chinouriri I Think I Spoke Too Soon review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rachel-chinouriri-i-think-i-spoke-too-soon-album-review-1235637822/"
+    ]
+  },
+  {
+    "query": "Did critics like the new Queens of the Stone Age album Perfecth?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/queens-of-the-stone-age-perfecth-review-1235637835/"
+    ]
+  },
+  {
+    "query": "What's Rolling Stone's take on Miley Cyrus's Bass Persuades?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/"
+    ]
+  },
+  {
+    "query": "Ariana Grande Petal review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/ariana-grande-petal-album-review-1235601310/"
+    ]
+  },
+  {
+    "query": "Is the new Strokes album Reality Awaits good?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/strokes-reality-awaits-review-1235597095/"
+    ]
+  },
+  {
+    "query": "Review of Muse's The Wow! Signal",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/muse-wow-signal-review-1235583097/"
+    ]
+  },
+  {
+    "query": "Modest Mouse An Eraser and a Maze review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/modest-mouse-an-eraser-and-a-maze-review-1235573152/"
+    ]
+  },
+  {
+    "query": "What did they think of Jack White's Frozen Charlotte?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/jack-white-frozen-charlotte-album-review-1235592756/"
+    ]
+  },
+  {
+    "query": "Is Future's The Real Me worth listening to?",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/future-the-real-me-album-review-1235593025/"
+    ]
+  },
+  {
+    "query": "Alabama Shakes I Must Be Dreaming review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alabama-shakes-i-must-be-dreaming-album-review-1235616760/"
+    ]
+  },
+  {
+    "query": "Sienna Spiro debut album Visitor",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/sienna-spiro-visitor-album-review-1235586848/"
+    ]
+  },
+  {
+    "query": "Fruit Bats The Landfill review",
+    "type": "direct",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "British indie-pop singer's faster second album about getting sober",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rachel-chinouriri-i-think-i-spoke-too-soon-album-review-1235637822/"
+    ]
+  },
+  {
+    "query": "hard rock frontman's quiet acoustic album after a divorce and cancer surgery",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/queens-of-the-stone-age-perfecth-review-1235637835/"
+    ]
+  },
+  {
+    "query": "pop star who stopped touring because life on the road threatens her sobriety",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/"
+    ]
+  },
+  {
+    "query": "pop diva's furious album written from a place of unfiltered rage",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/ariana-grande-petal-album-review-1235601310/"
+    ]
+  },
+  {
+    "query": "reunited Southern rock-soul band's first record in more than a decade",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alabama-shakes-i-must-be-dreaming-album-review-1235616760/"
+    ]
+  },
+  {
+    "query": "20-year-old singer recording live in single takes with a huge band like the old greats",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/sienna-spiro-visitor-album-review-1235586848/"
+    ]
+  },
+  {
+    "query": "bombastic British arena rock album named after a mysterious radio signal from space",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/muse-wow-signal-review-1235583097/"
+    ]
+  },
+  {
+    "query": "alt-rock band's first indie-label album since the Nineties, after losing their drummer",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/modest-mouse-an-eraser-and-a-maze-review-1235573152/"
+    ]
+  },
+  {
+    "query": "Americana songwriter's album shaped by the death of his mentor Todd Snider",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/aaron-lee-tasjan-get-over-it-underdog-1235595309/"
+    ]
+  },
+  {
+    "query": "Leeds band gets looser and more melodic on their third album",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "Atlanta trap veteran can't escape his old formula",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/future-the-real-me-album-review-1235593025/"
+    ]
+  },
+  {
+    "query": "garage rock guitarist's relentless eighth solo album",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/jack-white-frozen-charlotte-album-review-1235592756/"
+    ]
+  },
+  {
+    "query": "73-year-old R&B icon goes bright dance-pop with Sia",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/chaka-khan-chakzilla-album-review-1235630380/"
+    ]
+  },
+  {
+    "query": "album inspired by Midwest garbage dumps that turn into mountains",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "double album split into daytime and nighttime halves about falling in love",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/carly-rae-jepsen-day-and-night-album-review-1235622766/"
+    ]
+  },
+  {
+    "query": "neo-soul singer's first proper album since 2010, made with an underground hip-hop producer",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/erykah-badu-the-alchemist-before-the-world-blows-1235618167/"
+    ]
+  },
+  {
+    "query": "singer behind last year's biggest hit writes about his dead parents and his wife",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alex-warren-wildchild-album-review-1235618769/"
+    ]
+  },
+  {
+    "query": "West Coast rapper opens up about being sexually assaulted as a teenager",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yg-the-gentlemens-club-review-1235580889/"
+    ]
+  },
+  {
+    "query": "multi-artist roots concept album released on Juneteenth",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/outlaws-almanac-review-1235579739/"
+    ]
+  },
+  {
+    "query": "veteran band deliberately makes a record that sounds like their classic Nineties albums",
+    "type": "paraphrase",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/weezer-gold-album-review-1235611428/"
+    ]
+  },
+  {
+    "query": "album with a cover of Amy Winehouse's You Know I'm No Good",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "country record that covers a Jim Croce song",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miranda-lambert-crisco-album-review-1235622751/"
+    ]
+  },
+  {
+    "query": "track that samples Glen Campbell",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/future-the-real-me-album-review-1235593025/"
+    ]
+  },
+  {
+    "query": "closing song built on Harry Nilsson's One",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/bigxthaplug-better-over-time-new-album-review-1235649228/"
+    ]
+  },
+  {
+    "query": "title track that borrows the chorus of Meredith Brooks' 1997 hit",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/lizzo-bitch-album-review-1235572260/"
+    ]
+  },
+  {
+    "query": "duet with Sabrina Carpenter that debuted at Coachella",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/madonna-confessions-ii-album-review-1235588293/"
+    ]
+  },
+  {
+    "query": "song where the narrator meets Elvis driving a Tesla",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/brandon-flowers-thrasher-album-review-1235612693/"
+    ]
+  },
+  {
+    "query": "album with an Ellie Goulding guest vocal",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/muse-wow-signal-review-1235583097/"
+    ]
+  },
+  {
+    "query": "John Mayer guitar solo on a farewell song to a dead father",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/alex-warren-wildchild-album-review-1235618769/"
+    ]
+  },
+  {
+    "query": "song named after a vibrator brand",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/adela-prima-album-review-1235620983/"
+    ]
+  },
+  {
+    "query": "track where Hayley Williams of Paramore sings",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beabadoobee-pylon-album-review-1235626786/"
+    ]
+  },
+  {
+    "query": "song that ends with a recorded phone call to the singer's grandfather",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/ravyn-lenae-blue-island-album-review-1235578511/"
+    ]
+  },
+  {
+    "query": "song co-written with actor Paul Mescal",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/gracie-abrams-album-review-daughter-from-hell-1235587533/"
+    ]
+  },
+  {
+    "query": "opening track that samples a Nikki Giovanni poem",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/sienna-spiro-visitor-album-review-1235586848/"
+    ]
+  },
+  {
+    "query": "lyrics that mention Denisovans and Isaac Newton",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/jack-white-frozen-charlotte-album-review-1235592756/"
+    ]
+  },
+  {
+    "query": "song referencing the 1950 Jayuya Uprising",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/chuwis-album-libertad-review-bad-bunny-1235643070/"
+    ]
+  },
+  {
+    "query": "guest vocal from Karly Hartzman of Wednesday",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/weezer-gold-album-review-1235611428/"
+    ]
+  },
+  {
+    "query": "banjo version of the Misfits' Last Caress with John Popper",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/metallica-reload-super-deluxe-edition-review-1235573244/"
+    ]
+  },
+  {
+    "query": "produced by Justin Meldal-Johnsen",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "recorded without click tracks at Bear Creek Studios",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fruit-bats-the-landfill-1235576342/"
+    ]
+  },
+  {
+    "query": "song written after a Lydia Loveless concert",
+    "type": "deep",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/aaron-lee-tasjan-get-over-it-underdog-1235595309/"
+    ]
+  },
+  {
+    "query": "Erykah Badu and Steve Lacy working together",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/erykah-badu-the-alchemist-before-the-world-blows-1235618167/",
+      "https://www.rollingstone.com/music/music-album-reviews/steve-lacy-oh-yeah-album-review-1235594783/"
+    ]
+  },
+  {
+    "query": "albums compared to Nick Drake",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/",
+      "https://www.rollingstone.com/music/music-album-reviews/erykah-badu-the-alchemist-before-the-world-blows-1235618167/"
+    ]
+  },
+  {
+    "query": "Leon Bridges collaborations",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/leon-bridges-happiness-anytime-album-review-1235629868/",
+      "https://www.rollingstone.com/music/music-album-reviews/shaboozey-new-music-outlaw-cherie-lee-other-western-tales-1235599492/"
+    ]
+  },
+  {
+    "query": "albums Bruno Mars plays or sings on",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/karol-g-no-me-arrepiento-de-sentir-album-review-1235604209/",
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/"
+    ]
+  },
+  {
+    "query": "records featuring Robert Smith of the Cure",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rolling-stones-foreign-tongues-album-review-1235573246/",
+      "https://www.rollingstone.com/music/music-album-reviews/olivia-rodrigo-you-seem-pretty-sad-for-a-girl-love-review-1235576485/"
+    ]
+  },
+  {
+    "query": "artists singing about getting married",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/",
+      "https://www.rollingstone.com/music/music-album-reviews/carly-rae-jepsen-day-and-night-album-review-1235622766/",
+      "https://www.rollingstone.com/music/music-album-reviews/charli-xcx-music-fashion-film-review-1235597074/",
+      "https://www.rollingstone.com/music/music-album-reviews/alex-warren-wildchild-album-review-1235618769/"
+    ]
+  },
+  {
+    "query": "artists writing about getting sober",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/rachel-chinouriri-i-think-i-spoke-too-soon-album-review-1235637822/",
+      "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/"
+    ]
+  },
+  {
+    "query": "rap releases that got lukewarm reviews",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/yeat-cocoon-new-music-drake-feature-1235630031/",
+      "https://www.rollingstone.com/music/music-album-reviews/future-the-real-me-album-review-1235593025/"
+    ]
+  },
+  {
+    "query": "country albums",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/miranda-lambert-crisco-album-review-1235622751/",
+      "https://www.rollingstone.com/music/music-album-reviews/brandon-flowers-thrasher-album-review-1235612693/",
+      "https://www.rollingstone.com/music/music-album-reviews/shaboozey-new-music-outlaw-cherie-lee-other-western-tales-1235599492/"
+    ]
+  },
+  {
+    "query": "post-punk bands",
+    "type": "multi",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/",
+      "https://www.rollingstone.com/music/music-album-reviews/yard-act-youre-gonna-need-a-little-music-album-review-1235595166/"
+    ]
+  },
+  {
+    "query": "party album full of drugs, sex and dancing",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/dillom-la-nueva-violencia-review-1235608396/"
+    ]
+  },
+  {
+    "query": "Caribbean rhythms mixed with protest lyrics",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/chuwis-album-libertad-review-bad-bunny-1235643070/"
+    ]
+  },
+  {
+    "query": "industrial metal with drum machines and sludgy guitars",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/godflesh-decay-album-review-1235609865/"
+    ]
+  },
+  {
+    "query": "gloomy, gentle acoustic breakup music",
+    "type": "genre_mood",
+    "relevant_docs": [
+      "https://www.rollingstone.com/music/music-album-reviews/beck-ride-lonesome-review-1235628464/"
+    ]
+  }
+]

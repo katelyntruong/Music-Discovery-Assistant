@@ -1,0 +1,52 @@
+[
+  {"query": "What have I listened to recently?", "expected_tools": ["get_recently_played"]},
+  {"query": "What have I been listening to lately?", "expected_tools": ["get_recently_played"]},
+  {"query": "What songs did I play this week?", "expected_tools": ["get_recently_played"]},
+  {"query": "Show me my recent music.", "expected_tools": ["get_recently_played"]},
+  {"query": "Pull up my listening history.", "expected_tools": ["get_recently_played"]},
+  {"query": "What was the last thing I had on?", "expected_tools": ["get_recently_played"]},
+
+  {"query": "What are my top tracks?", "expected_tools": ["get_top_tracks"]},
+  {"query": "What have I been playing the most this year?", "expected_tools": ["get_top_tracks"]},
+  {"query": "Show me my most played songs.", "expected_tools": ["get_top_tracks"]},
+  {"query": "What's been on repeat for me lately?", "expected_tools": ["get_top_tracks"]},
+  {"query": "What are my favorite songs over the last 6 months?", "expected_tools": ["get_top_tracks"]},
+  {"query": "Which artists do I actually listen to the most?", "expected_tools": ["get_top_tracks"]},
+
+  {"query": "How many Spotify followers does Radiohead have?", "expected_tools": ["get_artist_info"]},
+  {"query": "What genres is Billie Eilish classified under on Spotify?", "expected_tools": ["get_artist_info"]},
+  {"query": "How popular is Radiohead on Spotify right now?", "expected_tools": ["get_artist_info"]},
+  {"query": "What's Tyler, the Creator's Spotify popularity score?", "expected_tools": ["get_artist_info"]},
+  {"query": "Look up Frank Ocean's Spotify profile.", "expected_tools": ["get_artist_info"]},
+  {"query": "How many followers does Beyoncé have?", "expected_tools": ["get_artist_info"]},
+
+  {"query": "Find songs by Radiohead.", "expected_tools": ["spotify_search"]},
+  {"query": "Search Spotify for 'Bohemian Rhapsody'.", "expected_tools": ["spotify_search"]},
+  {"query": "Play something by Beyoncé.", "expected_tools": ["spotify_search"]},
+  {"query": "Find the song Blinding Lights on Spotify.", "expected_tools": ["spotify_search"]},
+  {"query": "Look up tracks from the album Random Access Memories.", "expected_tools": ["spotify_search"]},
+  {"query": "Search for upbeat workout songs on Spotify.", "expected_tools": ["spotify_search"]},
+
+  {"query": "What did Rolling Stone say about Radiohead's album In Rainbows?", "expected_tools": ["rag_search"]},
+  {"query": "What's the critical reception been like for Kendrick Lamar's latest album?", "expected_tools": ["rag_search"]},
+  {"query": "Summarize Rolling Stone's review of To Pimp a Butterfly.", "expected_tools": ["rag_search"]},
+  {"query": "What are the best-reviewed indie albums of the last 5 years according to critics?", "expected_tools": ["rag_search"]},
+  {"query": "What does the press say about Tyler, the Creator's evolution as an artist?", "expected_tools": ["rag_search"]},
+  {"query": "How did critics react to Frank Ocean's Blonde?", "expected_tools": ["rag_search"]},
+
+  {"query": "Based on my recent listening, recommend some Radiohead songs.", "expected_tools": ["get_recently_played", "spotify_search"]},
+  {"query": "Based on what I've been listening to, recommend artists that critics consider similar.", "expected_tools": ["get_recently_played", "rag_search"]},
+  {"query": "Using my top tracks, build me a playlist.", "expected_tools": ["get_top_tracks", "spotify_search", "create_playlist"]},
+  {"query": "Tell me about Frank Ocean's style, complete with some song recommendations.", "expected_tools": ["rag_search", "get_artist_info", "spotify_search"]},
+  {"query": "Something like Frank Ocean — emotional and smooth.", "expected_tools": ["rag_search", "get_artist_info", "spotify_search"]},
+  {"query": "Build me an energetic gym playlist.", "expected_tools": ["spotify_search", "create_playlist"]},
+  {"query": "Create a playlist of jazz songs.", "expected_tools": ["spotify_search", "create_playlist"]},
+  {"query": "What are the best indie albums of the last 5 years, and can you find me some tracks from them?", "expected_tools": ["rag_search", "spotify_search"]},
+  {"query": "Make me a playlist based on what I've been playing this month.", "expected_tools": ["get_top_tracks", "spotify_search", "create_playlist"]},
+
+  {"query": "Thanks, that's really helpful!", "expected_tools": []},
+  {"query": "What's the weather like today?", "expected_tools": []},
+  {"query": "Can you help me write a Python script to sort a list?", "expected_tools": []},
+  {"query": "Hey, how's it going?", "expected_tools": []},
+  {"query": "That's exactly what I wanted, appreciate it.", "expected_tools": []}
+]

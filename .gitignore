@@ -8,3 +8,4 @@ backend/.spotify_cache
 backend/.venv/
 node_modules/
 .DS_Store
+backend/chroma_ab/
